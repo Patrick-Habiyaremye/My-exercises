@@ -62,6 +62,6 @@ let videoMsg: VideoMessage ={
     duration: 120
 }
 
-console.log(textMsg)
-console.log(imageMsg)
-console.log(videoMsg)
+console.log(formatMessage(textMsg))
+console.log(formatMessage(imageMsg))
+console.log(formatMessage(videoMsg))
